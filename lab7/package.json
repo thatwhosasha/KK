@@ -1,0 +1,13 @@
+{
+  "name": "lab7-mock",
+  "version": "1.0.0",
+  "description": "Lab 7: Currency rate mock with Mountebank",
+  "main": "mock-server.js",
+  "scripts": {
+    "start-mock": "node mock-server.js",
+    "client": "node client.js"
+  },
+  "dependencies": {
+    "mountebank": "^2.8.2"
+  }
+}
